@@ -34,6 +34,16 @@ public class Account {
 		return balance;
 	}
 	
-	
+	public String toString() {
+		return "Olá, "
+				+ holder
+				+ ", obrigado por criar uma conta em nosso banco, sua agência é "
+				+ agency
+				+ ", conta "
+				+ number
+				+ " e o seu saldo R$ "
+				+ balance
+				+ " já está disponível para saque.";
+	}
 	
 }
